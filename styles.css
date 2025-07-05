@@ -1,0 +1,140 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: roboto;
+}
+.menu-container {
+  /* border: 1px solid red; debugging */
+  background-color: #1f2937;
+  cursor: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu {
+  /* border: 1px solid red; debugging */
+  width: 1000px;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+  /* flex-direction: column; */
+  padding-bottom: 60px;
+  color: white;
+}
+
+.menu .links {
+  /* border: 1px solid blue; debugging */
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.content {
+  display: flex;
+  width: 1000px;
+  /* border: 1px solid blue; debugging */
+  color: white;
+}
+
+.text-button {
+  display: flex;
+  /* border: 1px solid yellow; */
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+/* 
+.squre-container > img {
+  width: 100px;
+  height: 100px;
+} */
+
+.button {
+  background: royalblue;
+  /* border: 1px solid #ddd; */
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  display: inline-block;
+  width: 100px;
+}
+
+/* .container {
+  text-align: center;
+} */
+
+.text-title {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.squre-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.info {
+  max-width: 105px;
+}
+
+.text-white {
+  background-color: #e5e7eb;
+  padding-bottom: 0px;
+}
+
+.phrase {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  align-items: center;
+  padding: 50px 50px 0px 50px;
+  font-size: 36px;
+  font-style: italic;
+}
+
+.phrase > p {
+  max-width: 800px;
+}
+
+.autor {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 1300px;
+  padding-top: 0px;
+}
+
+.footer {
+  padding: 100px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.frame {
+  background-color: #3882f6;
+  color: white;
+  display: flex;
+  padding: 50px;
+  justify-content: space-between;
+  gap: 20px;
+  /* max-width: 1000px; */
+}
+
+.footer > button {
+  background: royalblue;
+  /* border: 1px solid #ddd; */
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  display: inline-block;
+  width: 100px;
+}
